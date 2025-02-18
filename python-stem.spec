@@ -33,6 +33,5 @@ protocol to script against the Tor process, or build things such as Nyx.
 
 %files
 %license LICENSE
-%doc html
 %doc README.md
 %{_bindir}/tor-prompt
