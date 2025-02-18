@@ -35,3 +35,5 @@ protocol to script against the Tor process, or build things such as Nyx.
 %license LICENSE
 %doc README.md
 %{_bindir}/tor-prompt
+%{python_sitelib}/stem-%{version}-py*.*.egg-info
+%{python_sitelib}/stem/
