@@ -15,8 +15,7 @@ BuildArch:      noarch
 
 BuildSystem:  python
 BuildRequires:  pkgconfig(python)
-BuildRequires:  python3dist(setuptools)
-BuildRequires:  python3dist(sphinx)
+BuildRequires:	python%{pyver}dist(setuptools)
  # for tests
  %if %{with tests}
 BuildRequires:  python3dist(mock)
