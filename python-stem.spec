@@ -5,7 +5,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.8.2
-Release:        2
+Release:        3
 Summary:        Python controller library for Tor
 Group:          Development/Python
 License:        LGPLv3
